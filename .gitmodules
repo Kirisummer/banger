@@ -1,0 +1,9 @@
+[submodule "tomlplusplus"]
+	path = libs/tomlplusplus
+	url = https://github.com/marzer/tomlplusplus.git
+[submodule "libs/tinytest"]
+	path = libs/tinytest
+	url = git@github.com:Kirisummer/tinytest.git
+[submodule "libs/expected"]
+	path = libs/expected
+	url = git@github.com:zeus-cpp/expected.git

@@ -1,0 +1,13 @@
+default='duckduckgo'
+
+[[bangs]]
+bangs = ['duckduckgo', 'ddg']
+query = 'https://duckduckgo.com/?q=%s'
+
+[[bangs]]
+bangs = ['wikipedia', 'wiki', 'w']
+query = 'https://en.wikipedia.org/w/?search=%s'
+
+[[bangs]]
+bangs = ['вікі', 'в', 'ukwiki']
+query = 'https://uk.wikipedia.org/w/?search=%s'
