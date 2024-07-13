@@ -49,7 +49,7 @@ PercentDecoder::PercentDecoder():
 PercentDecoder::~PercentDecoder() = default;
 
 zeus::expected<void, std::size_t>
-PercentDecoder::feed(std::string_view str) const {
+PercentDecoder::feed(std::string_view str) {
     for (std::size_t pos = 0; pos < str.size(); ++pos) {
         if (!impl_->feed(str.at(pos))) {
             return zeus::unexpected(pos);
