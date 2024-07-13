@@ -45,15 +45,15 @@ default='duckduckgo'
 
 [[bangs]]
 bangs = ['duckduckgo', 'ddg']
-query = 'https://duckduckgo.com/?q=%s'
+query = 'https://duckduckgo.com/?q={}'
 
 [[bangs]]
 bangs = ['wikipedia', 'wiki', 'w']
-query = 'https://en.wikipedia.org/w/?search=%s'
+query = 'https://en.wikipedia.org/w/?search={}'
 
 [[bangs]]
 bangs = ['вікі', 'в', 'ukwiki']
-query = 'https://uk.wikipedia.org/w/?search=%s'
+query = 'https://uk.wikipedia.org/w/?search={}'
 ```
 
 Here, we can see three configurations, with DuckDuckGo selected as a default:
