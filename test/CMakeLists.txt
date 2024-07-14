@@ -24,3 +24,14 @@ target_include_directories(percent_decoder_test PRIVATE
     ${EXPECTED}
 )
 add_test(NAME percent_decoder_test COMMAND percent_decoder_test)
+
+add_executable(percent_encoder_test
+    percent_encoder_test.cpp
+    ../src/percent_encoder.cpp
+)
+target_include_directories(percent_encoder_test PRIVATE
+    ../src
+    ${TINYTEST}
+    ${EXPECTED}
+)
+add_test(NAME percent_encoder_test COMMAND percent_encoder_test)
