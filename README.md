@@ -1,4 +1,6 @@
 # Banger
+## Abandoned: [banger_rs](https://github.com/Kirisummer/banger_rs) is developed instead.
+
 A service that imitates DuckDuckGo's bangs:
 > Bangs are shortcuts that quickly take you to search results on other sites.
 > For example, when you know you want to search on another site like Wikipedia
